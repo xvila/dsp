@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will be using Vim for my terminal editor. I chose vim because it is simple but also very powerful. It is also easier to configure than emacs and is available on every unix system. You can also use vim keybindings in many gui text editors so it just seems like a good choice.
 
 --
 
@@ -89,8 +89,12 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> * I will be using Sublime Text 3. 
->> * I Sublime because it is very fast and it has a ton of plugins available. It also seems to use less resources than Atom.
->> * Interesting Features: Package manager, 
-
+>> * I will be using BBedit. 
+>> * BBedit is very fast and reliable. More reliable I find than options like Sublime or Atom. I will however have Sublime installed as well just in case I need to use some sort of special package.
+>> * Interesting Features:
+	* Multi File Search
+	* Grep Search
+	* Compare differences between files
+	* Can edit remote files
+	* Has a gui for editing preferences rather than a json file
  
