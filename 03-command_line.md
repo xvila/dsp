@@ -29,6 +29,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * cp dir/file.txt dir2/file.txt: copies file to new directory
 * grep: allows you to search files that contain a pattern
 * cat: prints file contents to standard output
+* >: redirects standard output to a file
+* >>: appends standard output to a file
+* |: pipe standard output from left command as standard input on right command
+* sort: takes standard output and sorts alphabetically
+* uniq: filters out adjacent duplicate lines of text. Should call sort first to ensure removal of duplicates
+* grep -i: makes searches case insensitive
+* grep -R: Recursive search through all files in a directory
 
 ---
 
@@ -49,7 +56,7 @@ What do the following commands do:
 `ls -lh`: displays long format with human friendly units for file size
 `ls -lah`: displays long format with hidden files and friendly units for file size 
 `ls -t`: sort files by time
-`ls -Glp`: displays long format listing excluding owner name with trailing `/`
+`ls -Glp`: displays long format listing excluding group name with trailing `/`
 
 ---
 
