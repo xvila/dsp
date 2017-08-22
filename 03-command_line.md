@@ -19,16 +19,23 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > * pwd: prints the current directory
-	* mkdir: creates a directory
-	* rmdir: removes a directory 
-	* touch: creates a file
-	* rm: deletes a file
-	* mv file1.txt file2.txt: renames file1 to file2
-	* ls -a: list all files including hidden files
-	* cp dir/file.txt dir2/file.txt: copies file to new directory
-	* grep: allows you to search files that contain a pattern
-	* cat: prints file contents to standard output
+* pwd: prints the current directory
+* mkdir: creates a directory
+* rmdir: removes a directory 
+* touch: creates a file
+* rm: deletes a file
+* mv file1.txt file2.txt: renames file1 to file2
+* ls -a: list all files including hidden files
+* cp dir/file.txt dir2/file.txt: copies file to new directory
+* grep: allows you to search files that contain a pattern
+* cat: prints file contents to standard output
+* >: redirects standard output to a file
+* >>: appends standard output to a file
+* |: pipe standard output from left command as standard input on right command
+* sort: takes standard output and sorts alphabetically
+* uniq: filters out adjacent duplicate lines of text. Should call sort first to ensure removal of duplicates
+* grep -i: makes searches case insensitive
+* grep -R: Recursive search through all files in a directory
 
 ---
 
@@ -43,13 +50,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls`: lists all files and directories within the working directory.
+`ls`: lists all files and directories within the working directory.
 `ls -a`: displays all files including hidden files
 `ls -l`: displays files in long format table
 `ls -lh`: displays long format with human friendly units for file size
 `ls -lah`: displays long format with hidden files and friendly units for file size 
 `ls -t`: sort files by time
-`ls -Glp`: displays long format listing excluding owner name with trailing `/`
+`ls -Glp`: displays long format listing excluding group name with trailing `/`
 
 ---
 
@@ -57,12 +64,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > Favorites:
-	* -a
-	* -d
-	* -u
-	* -l
-	* -1
+* -a
+* -d
+* -u
+* -l
+* -1
 
 ---
 
@@ -70,7 +76,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > `xargs` is a command that is typically used where the output of one command is passed as arguments to another command. An example would be creating files from a list present in a text file. Assuming you have a file called `test.txt` and it contains two lines. Those lines are:
+`xargs` is a command that is typically used where the output of one command is passed as arguments to another command. An example would be creating files from a list present in a text file. Assuming you have a file called `test.txt` and it contains two lines. Those lines are:
 `file1.txt`
 `file2.txt`
 Writing the following in the command like would create two files named `file1.txt` and `file2.txt`.
