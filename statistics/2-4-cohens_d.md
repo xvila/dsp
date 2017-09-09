@@ -1,6 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> My answer is `-0.088672927072602`. Code is below.
+>> My answer is `-0.088672927072602`. So first born will weigh slightly less than others. Code is below.
 
 ```python
 import nsfg
