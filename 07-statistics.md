@@ -98,7 +98,7 @@ pIdent/(pIdent+pFrat)
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> In Frequentist Statistics you are making predictions using only the current data that you have available. Bayesian Statistics is when you incorporate prior knowledge with the current data in order to make predictions.
 
 ---
 
