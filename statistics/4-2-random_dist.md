@@ -6,7 +6,11 @@ random_nums = np.random.random(1000)
 
 pmf = thinkstats2.Pmf(random_nums)
 thinkplot.Pmf(pmf)
+```
+![](pmf.png)
 
+```python
 cdf = thinkstats2.Cdf(random_nums)
 thinkplot.Cdf(cdf)
 ```
+![](cdf.png)
