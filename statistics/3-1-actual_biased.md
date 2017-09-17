@@ -1,6 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->> The actual pmf mean is `2.2` and the biased pmf mean is `3.2`.
+>> The actual pmf mean is `2.2` and the biased pmf mean is `3.2`. This shows that the pmf is skewed towards the families with larger numbers of children.
 Code:
 ```python
 %matplotlib inline
@@ -30,3 +30,4 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Config(xlabel='family size', ylabel='PMF')
 ```
+![](actualvbias.png)
